@@ -11,7 +11,7 @@ function App() {
           className="App-logo"
           alt="logo"
         />
-        <h1>Levan Bulatsashvili</h1>
+        <h1>Levani Bulatsashvili</h1>
         <h2>
           <span>React</span> Developer
         </h2>
