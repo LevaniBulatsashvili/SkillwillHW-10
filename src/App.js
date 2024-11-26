@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  let randomImgId = Math.ceil(Math.random() * 200);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img
+          src={`https://picsum.photos/id/${randomImgId}/250/250`}
+          className="App-logo"
+          alt="logo"
+        />
+        <h1>Levan Bulatsashvili</h1>
+        <h2>
+          <span>React</span> Developer
+        </h2>
+        <p>Refresh the page for a random image! (up to 200)</p>
       </header>
     </div>
   );
